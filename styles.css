@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.main {
+    padding: 0 15px;
+    position: absolute;
+    width: 1318px;
+}
+
+.box-one {
+    display: block;
+    float: left;
+    border: 1px solid;
+    width: 30%;
+    position: relative;
+    margin: 6rem 0;
+}
+
+.box-two {
+    border: 1px solid;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-three {
+    border: 1px solid;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-four {
+    display: block;
+    float: right;
+    border: 1px solid;
+    width: 30%;
+}

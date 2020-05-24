@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+footer {
+    top: 850px;
+    position: relative;
+    display: block;
+    padding: 15px 0;
+}
+
+.heading-one {
+    text-align: center;
+    font-weight: 200;
+}
+
+.heading-two {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.heading-para {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main {
+    padding: 0 60px;
+    position: absolute;
+    width: 100%;
+    margin-top: 4rem;
+    display: block;
+}
+
+.icon_right {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.box-one {
+    float: left;
+    display: block;
+    width: 30%;
+    position: relative;
+    margin: 15rem 0;
+    padding-right: 5px;
+    border-radius: 10px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%)
+}
+
+.box-one-head {
+    text-indent: 25px;
+    padding-top: 15px;
+}
+
+.box-one p {
+    margin-left: 25px;
+    margin-bottom: 4rem;
+}
+
+.box-two {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 300px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+}
+
+.box-two-head {
+    text-indent: 25px;
+    padding-top: 15px;
+}
+
+.box-two p {
+    margin-left: 25px;
+    margin-bottom: 4rem;
+}
+
+.box-three {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 300px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+}
+
+.box-three-head {
+    text-indent: 25px;
+    padding-top: 15px;
+}
+
+.box-three p {
+    margin-left: 25px;
+    margin-bottom: 4rem;
+}
+
+.box-four {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    width: 30%;
+    float: right;
+    margin-top: 15rem;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+}
+
+.box-four-head { 
+    text-indent: 25px;
+    padding-top: 15px;
+}
+
+.box-four p {
+    margin-left: 25px;
+    margin-bottom: 4rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        margin: 0 auto;
+        position: relative;
+    }
+
+    footer {
+        top: 95rem;
+        text-align: center;
+
+    }
+
+    .heading-one,
+    .heading-two {
+        text-align: center;
+    }
+    
+    .heading-para {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .main {
+        margin: 0 auto;
+        height: 90rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-one {
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 23rem;
+        top: 2rem;
+    }
+
+    .box-two {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        width: 23rem;
+        top: 25rem;
+    }
+
+    .box-three {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        width: 23rem;
+        top: 47rem;
+    }
+
+    .box-four {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        width: 23rem;
+        top: 69rem;
+    }
+}
+
