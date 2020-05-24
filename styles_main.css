@@ -28,6 +28,7 @@ footer {
 .heading-para {
     text-align: center;
     margin-top: 25px;
+    color: darkgray;
 }
 
 .main {
@@ -65,6 +66,7 @@ footer {
 .box-one p {
     margin-left: 25px;
     margin-bottom: 4rem;
+    color: darkgray;
 }
 
 .box-two {
@@ -88,6 +90,7 @@ footer {
 .box-two p {
     margin-left: 25px;
     margin-bottom: 4rem;
+    color: darkgray;
 }
 
 .box-three {
@@ -112,6 +115,7 @@ footer {
 .box-three p {
     margin-left: 25px;
     margin-bottom: 4rem;
+    color: darkgray;
 }
 
 .box-four {
@@ -133,6 +137,7 @@ footer {
 .box-four p {
     margin-left: 25px;
     margin-bottom: 4rem;
+    color: darkgray;
 }
 
 .attribution {
