@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-    top: 850px;
+    top: 750px;
     position: relative;
     display: block;
     padding: 15px 0;
@@ -48,14 +48,15 @@ footer {
 .box-one {
     float: left;
     display: block;
-    width: 30%;
+    width: 350px;
     position: relative;
-    margin: 15rem 0;
+    margin: 16rem 0;
     padding-right: 5px;
     border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
     background-color: white;
-    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%)
+    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+    height: 250px;
 }
 
 .box-one-head {
@@ -71,11 +72,11 @@ footer {
 
 .box-two {
     border-top: 5px solid hsl(0, 78%, 62%);
-    width: 30%;
+    width: 350px;
     display: block;
     margin: 0 auto;
-    margin-top: 2rem;
-    height: 300px;
+    margin-top: 8rem;
+    height: 250px;
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
@@ -95,12 +96,12 @@ footer {
 
 .box-three {
     border-top: 5px solid hsl(34, 97%, 64%);
-    width: 30%;
+    width: 350px;
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    height: 300px;
+    height: 250px;
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
@@ -120,13 +121,14 @@ footer {
 
 .box-four {
     border-top: 5px solid hsl(212, 86%, 64%);
-    width: 30%;
+    width: 350px;
     float: right;
-    margin-top: 15rem;
+    margin-top: 16rem;
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+    height: 250px;
 }
 
 .box-four-head { 
@@ -150,14 +152,14 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
     body {
         margin: 0 auto;
         position: relative;
     }
 
     footer {
-        top: 95rem;
+        top: 85rem;
         text-align: center;
 
     }
@@ -184,32 +186,36 @@ footer {
         position: absolute;
         display: block;
         margin: auto;
-        width: 23rem;
+        width: 21.875rem;
         top: 2rem;
+        height: 15.625rem;
     }
 
     .box-two {
         position: absolute;
         display: block;
         margin: 0 auto;
-        width: 23rem;
-        top: 25rem;
+        width: 21.875rem;
+        height: 15.625rem;
+        top: 20rem;
     }
 
     .box-three {
         position: absolute;
         display: block;
         margin: 0 auto;
-        width: 23rem;
-        top: 47rem;
+        width: 21.875rem;
+        height: 15.625rem;
+        top: 38rem;
     }
 
     .box-four {
         position: absolute;
         display: block;
         margin: 0 auto;
-        width: 23rem;
-        top: 69rem;
+        width: 21.875rem;
+        height: 15.625rem;
+        top: 56rem;
     }
 }
 
