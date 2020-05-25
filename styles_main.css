@@ -32,10 +32,9 @@ footer {
 }
 
 .main {
-    padding: 0 60px;
+    padding: 0 120px;
     position: absolute;
     width: 100%;
-    margin-top: 4rem;
     display: block;
 }
 
