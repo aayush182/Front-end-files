@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 80px 0 0 0;
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
 }
@@ -18,86 +18,96 @@ footer {
 .heading-one {
     text-align: center;
     font-weight: 200;
+    color: rgba(0,0,0,0.7);
 }
 
 .heading-two {
     text-align: center;
     margin-top: -25px;
+    color: rgba(0,0,0,0.7);
 }
 
 .heading-para {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 1px 420px 0 420px;
     color: darkgray;
+    font-size: 14px;
 }
 
 .main {
-    padding: 0 120px;
+    padding: 0 150px;
     position: absolute;
     width: 100%;
     display: block;
+    margin-top: 30px;
 }
 
 .icon_right {
     float: right;
-    margin-right: 30px;
-    margin-top: -30px;
-    width: 45px;
+    margin-right: 25px;
+    margin-top: -20px;
+    width: 55px;
     position: relative;
 }
 
 .box-one {
     float: left;
     display: block;
-    width: 350px;
+    width: 330px;
     position: relative;
-    margin: 16rem 0;
+    margin: 10rem 0;
     padding-right: 5px;
     border-radius: 10px;
     border-top: 5px solid hsl(180, 62%, 55%);
     background-color: white;
-    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+    box-shadow: 1px 10px 20px -8px hsl(234, 12%, 34%);
     height: 250px;
 }
 
 .box-one-head {
-    text-indent: 25px;
-    padding-top: 15px;
+    text-indent: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
 }
 
 .box-one p {
-    margin-left: 25px;
-    margin-bottom: 4rem;
+    margin: -10px 35px 4rem 35px;
+    font-size: 12px;
+    line-height: 20px;
     color: darkgray;
 }
 
 .box-two {
     border-top: 5px solid hsl(0, 78%, 62%);
-    width: 350px;
+    width: 330px;
     display: block;
     margin: 0 auto;
-    margin-top: 8rem;
+    margin-top: 2rem;
     height: 250px;
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+    box-shadow: 1px 10px 20px -8px hsl(234, 12%, 34%);
 }
 
 .box-two-head {
-    text-indent: 25px;
-    padding-top: 15px;
+    text-indent: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
 }
 
 .box-two p {
-    margin-left: 25px;
-    margin-bottom: 4rem;
+    margin: -10px 35px 4rem 35px;
     color: darkgray;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .box-three {
     border-top: 5px solid hsl(34, 97%, 64%);
-    width: 350px;
+    width: 330px;
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
@@ -106,41 +116,47 @@ footer {
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+    box-shadow: 1px 10px 20px -8px hsl(234, 12%, 34%);
 }
 
 .box-three-head {
-    text-indent: 25px;
-    padding-top: 15px;
+    text-indent: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
 }
 
 .box-three p {
-    margin-left: 25px;
-    margin-bottom: 4rem;
+    margin: -10px 35px 4rem 35px;
     color: darkgray;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .box-four {
     border-top: 5px solid hsl(212, 86%, 64%);
-    width: 350px;
+    width: 330px;
     float: right;
-    margin-top: 16rem;
+    margin-top: 10rem;
     padding-right: 5px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 8px 15px 1px hsl(234, 12%, 34%);
+    box-shadow: 1px 10px 20px -8px hsl(234, 12%, 34%);
     height: 250px;
 }
 
 .box-four-head { 
-    text-indent: 25px;
-    padding-top: 15px;
+    text-indent: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
 }
 
 .box-four p {
-    margin-left: 25px;
-    margin-bottom: 4rem;
+    margin: -10px 35px 4rem 35px;
     color: darkgray;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .attribution {
@@ -173,6 +189,7 @@ footer {
     .heading-para {
         text-align: center;
         padding: 0 15px;
+        margin: 0;
     }
 
     .main {
